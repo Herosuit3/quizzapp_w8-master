@@ -8,7 +8,7 @@ class Quizzler extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         //TODO: 6.ปรับปรุง UI ตามชอบ
-        backgroundColor: Colors.blueGrey.shade300,
+        backgroundColor: Colors.blueGrey.shade200,
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 10.0),
@@ -114,7 +114,7 @@ class _QuizPageState extends State<QuizPage> {
                     scoreKeeper.add(
                         Icon(
                           Icons.close,
-                          color: Colors.red,
+                          color: Colors.green,
                         ));
                   });
                 }
@@ -165,7 +165,7 @@ class _QuizPageState extends State<QuizPage> {
                     scoreKeeper.add(
                       Icon(
                       Icons.close,
-                      color: Colors.green,
+                      color: Colors.red,
                     ));
                   });
                 }
