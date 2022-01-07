@@ -114,7 +114,7 @@ class _QuizPageState extends State<QuizPage> {
                     scoreKeeper.add(
                         Icon(
                           Icons.close,
-                          color: Colors.green,
+                          color: Colors.red,
                         ));
                   });
                 }
@@ -165,7 +165,7 @@ class _QuizPageState extends State<QuizPage> {
                     scoreKeeper.add(
                       Icon(
                       Icons.close,
-                      color: Colors.red,
+                      color: Colors.green,
                     ));
                   });
                 }
